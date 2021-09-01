@@ -1,0 +1,1 @@
+admob-templates-android
