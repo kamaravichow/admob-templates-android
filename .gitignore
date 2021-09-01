@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+nativetemplates/build/intermediates/annotation_processor_list/debug/
+
+nativetemplates/build/intermediates/incremental/packageDebugResources/
+
+*.bin
+
+nativetemplates/build/
+
+nativetemplates/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/
