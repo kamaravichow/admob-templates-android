@@ -79,7 +79,7 @@
 
                 <RatingBar
                     android:id="@+id/rating_bar"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="36dp"
                     android:layout_centerInParent="true"
                     android:layout_gravity="center"
@@ -95,6 +95,12 @@
                 </RatingBar>
 
 
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
                 <TextView
                     android:id="@+id/ad_notification_view"
                     android:layout_width="@dimen/gnt_ad_indicator_width"
@@ -106,17 +112,19 @@
                     android:textColor="@color/gnt_ad_green"
                     android:textSize="@dimen/gnt_ad_indicator_text_size"
                     android:textStyle="bold" />
-            </RelativeLayout>
 
-            <TextView
-                android:id="@+id/body"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/gnt_default_margin"
-                android:ellipsize="end"
-                android:maxLines="2"
-                android:paddingLeft="@dimen/gnt_default_margin"
-                tools:text="@tools:sample/lorem/random" />
+                <TextView
+                    android:id="@+id/body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/gnt_default_margin"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="@dimen/gnt_default_margin"
+                    tools:text="@tools:sample/lorem/random" />
+
+            </LinearLayout>
+
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/cta"
